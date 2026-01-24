@@ -1,0 +1,24 @@
+[
+    {
+        "role": "Data Analyst Intern",
+        "company": "Lazarus Network",
+        "period": "Feb 2025 \u2013 May 2025",
+        "description": "Remote",
+        "achievements": [
+            "Processed and cleaned large-scale datasets using Python (Pandas) and SQL, improving data accuracy by 95% for downstream reporting.",
+            "Implemented automated validation scripts that reduced data-entry errors by 30%.",
+            "Collaborated with senior stakeholders to define KPIs and reporting structures."
+        ]
+    },
+    {
+        "role": "Assistant Engineer",
+        "company": "NJS Engineers India Pvt. Ltd.",
+        "period": "Dec 2023 \u2013 Dec 2024",
+        "description": "Mumbai, India",
+        "achievements": [
+            "Managed project data and generated detailed progress reports for large-scale infrastructure projects.",
+            "Applied engineering mathematics to resource estimation and cost analysis.",
+            "Coordinated with cross-functional teams to ensure project timelines were met."
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Credit Risk Prediction Model",
+        "description": "Engineered a machine learning pipeline to predict loan defaults, improving risk assessment accuracy. Deployed as an interactive web app using Streamlit.",
+        "tags": [
+            "Python",
+            "XGBoost",
+            "Streamlit",
+            "Scikit-Learn"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/credit-risk-scoring",
+        "demo": "#",
+        "date": "Jan 2026"
+    },
+    {
+        "title": "AI Career Orchestrator",
+        "description": "An intelligent agent simulating a career coach. Orchestrates tasks to optimize job applications and career planning using LLM workflows.",
+        "tags": [
+            "LLM Agents",
+            "Python",
+            "AI Orchestration",
+            "Automation"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/ai-career-orchestrator",
+        "demo": "https://cs-ai-career.streamlit.app/",
+        "date": "Dec 2025"
+    },
+    {
+        "title": "Construction Material Price Tracker",
+        "description": "Architected an end-to-end data pipeline to track volatile material costs for civil engineering projects using SQL and Power BI.",
+        "tags": [
+            "Power BI",
+            "SQL",
+            "Python",
+            "ETL"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/Construction-Price-Tracker",
+        "demo": "#",
+        "date": "Nov 2025"
+    },
+    {
+        "title": "Housing Market Trends Analysis",
+        "description": "Queried 1M+ rows of housing data in BigQuery to identify undervalued investment opportunities and visualized regional price trends.",
+        "tags": [
+            "Google BigQuery",
+            "SQL",
+            "DataViz"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/Housing-Market-Analysis-PowerBI",
+        "demo": "#",
+        "date": "Sep 2025"
+    }
+]

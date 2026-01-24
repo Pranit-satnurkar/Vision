@@ -1,0 +1,23 @@
+
+> temp_app@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.4 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 2.9s
+  Running TypeScript ...
+Failed to compile.
+
+./components/ChatInterface.tsx:6:10
+Type error: '"ai"' has no exported member named 'Message'. Did you mean 'UIMessage'?
+
+  4 | import { useState, useRef, useEffect } from "react";
+  5 | import { useChat } from "@ai-sdk/react";
+> 6 | import { Message } from "ai";
+    |          ^
+  7 | import { Button } from "@/components/ui/button";
+  8 | import { Input } from "@/components/ui/input";
+  9 | import { Card } from "@/components/ui/card";
+Next.js build worker exited with code: 1 and signal: null

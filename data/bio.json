@@ -1,0 +1,51 @@
+{
+    "name": "Pranit",
+    "tagline": "Data Analyst | AI/ML Engineer",
+    "summary": "Results-oriented Data Analyst with over 1 year of professional experience in engineering and data processing. Leveraging a strong analytical background to solve business problems using Python, SQL, and Power BI. Recently developed advanced predictive models and dashboarding solutions for financial and construction domains.",
+    "socialLinks": {
+        "portfolio": "https://pranitcs.vercel.app",
+        "github": "https://github.com/Pranit-satnurkar",
+        "linkedin": "https://www.linkedin.com/in/pranit-satnurkar-143806240/",
+        "email": "mailto:pranit.satnurkar@gmail.com"
+    },
+    "skills": {
+        "analysis": [
+            "Power BI (DAX)",
+            "Tableau",
+            "Excel (Advanced)",
+            "Matplotlib",
+            "Seaborn"
+        ],
+        "programming": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "NumPy",
+            "Scikit-Learn"
+        ],
+        "cloud": [
+            "Google BigQuery",
+            "Azure SQL",
+            "AWS",
+            "Docker"
+        ],
+        "web": [
+            "Streamlit",
+            "Flask",
+            "GitHub Actions"
+        ]
+    },
+    "toolbox": [
+        "VS Code",
+        "Jupyter",
+        "Power BI",
+        "Git",
+        "Docker",
+        "PostgreSQL"
+    ],
+    "reading": {
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann"
+    },
+    "philosophy": "Data isn't just numbers; it's the voice of your business waiting to be heard."
+}
