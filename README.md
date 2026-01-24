@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ⚡ Pranit - AI/ML Engineer Portfolio
 
-First, run the development server:
+![Portfolio Preview](https://github.com/user-attachments/assets/placeholder-image)
+*(Replace with actual screenshot)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A next-generation portfolio interface designed for the modern Data Analyst & AI Engineer. Built with **"VisionOS Glass"** aesthetics, featuring deep translucency, fluid animations, and a workstation-inspired split-screen layout.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔮 The Console Architecture
+*   **VisionOS Aesthetics**: High-blur glass panels (`backdrop-blur-xl`), floating navigation pills, and depth-rich lighting effects.
+*   **Dual-Panel Layout**: A fixed "Control Center" for identity and a scrollable "Data Feed" for content.
+*   **System Interactions**: Elements behave like OS components — "loading" modules, executing projects, and responding to cursor proximity.
+*   **Smart Identity**: Centralized identity management powered by `bio.json`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
+*   **Framework**: Next.js 16 (App Router)
+*   **Styling**: Tailwind CSS v4 + Custom Utility Classes
+*   **Motion**: Framer Motion 12 + Lenis Smooth Scroll
+*   **UI Primitives**: Radix UI (Slot, Dialog, Separator)
+*   **Icons**: Lucide React
+*   **Fonts**: Geist Sans & Geist Mono
+*   **Deployment**: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Pranit-satnurkar/ai-portfolio.git
+    cd ai-portfolio
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2.  **Install dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  **Open locally**
+    Navigate to `http://localhost:3000`.
 
-## Deploy on Vercel
+## 📂 Project Structure
+*   `/app`: Next.js App Router pages and global layouts.
+*   `/components`: Reusable UI components (Navbar, Cards, Buttons).
+*   `/sections`: Logic-heavy page sections (Hero, About, Projects).
+*   `/data`: JSON-based CMS (`bio.json`, `projects.json`, `experience.json`).
+*   `/hooks`: Custom React hooks (audio engine, scroll handling).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+MIT License.
