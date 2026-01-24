@@ -45,7 +45,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h1 className="text-6xl lg:text-7xl font-black tracking-tighter leading-[0.85] mb-6">
+                    <h1 className="text-5xl lg:text-6xl font-black tracking-tighter leading-[0.85] mb-6">
                         DATA<br />
                         <span className="text-muted-foreground">ANALYST</span><br />
                         & AI/ML<br />
