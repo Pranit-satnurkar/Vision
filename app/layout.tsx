@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Pranit",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Pranit Portfolio"
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pranit | Data Analyst & AI/ML Engineer",
     description: "Data Analyst & AI/ML Engineer. Explore my work in predictive models and data solutions.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
