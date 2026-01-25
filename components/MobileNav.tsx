@@ -30,16 +30,16 @@ export default function MobileNav() {
                     <span className="sr-only">Toggle menu</span>
                 </Button>
             </SheetTrigger>
-            <SheetContent side="right">
-                <SheetHeader>
-                    <SheetTitle>Menu</SheetTitle>
+            <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background/80 backdrop-blur-xl border-l border-border/40 rounded-l-3xl shadow-2xl">
+                <SheetHeader className="mb-4">
+                    <SheetTitle className="text-center text-xl font-bold tracking-tight opacity-50 uppercase">Menu</SheetTitle>
                 </SheetHeader>
-                <div className="flex flex-col gap-4 mt-8">
+                <div className="flex flex-col gap-8 items-center justify-center h-[80%]">
                     {LINKS.map((link) => (
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-lg font-medium hover:text-primary transition-colors"
+                            className="text-xl uppercase tracking-widest font-medium text-muted-foreground hover:text-foreground transition-all hover:scale-110"
                             onClick={() => setOpen(false)}
                         >
                             {link.name}
