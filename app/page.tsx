@@ -24,27 +24,27 @@ export default async function Home() {
         {/* RIGHT PANEL: Data Feed (Scrollable) */}
         <main className="lg:col-span-7 xl:col-span-8 flex flex-col">
           {/* Section Dividers for 'System Log' feel */}
-          <div className="border-b border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-0 z-10 backdrop-blur">
+          <div className="border-b border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-24 z-10 backdrop-blur">
             &gt; System.Load_Module("About")
           </div>
           <About />
 
-          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-0 z-10 backdrop-blur">
+          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-24 z-10 backdrop-blur">
             &gt; System.Load_Module("Experience_Log")
           </div>
           <Experience />
 
-          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-0 z-10 backdrop-blur">
+          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-24 z-10 backdrop-blur">
             &gt; System.Load_Module("Project_Database")
           </div>
           <Projects />
 
-          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-0 z-10 backdrop-blur">
+          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-24 z-10 backdrop-blur">
             &gt; System.Load_Module("Extras")
           </div>
           <Extras />
 
-          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-0 z-10 backdrop-blur">
+          <div className="border-y border-border p-4 bg-muted/20 font-mono text-xs uppercase tracking-widest text-muted-foreground sticky top-24 z-10 backdrop-blur">
             &gt; Open_Comm_Channel()
           </div>
           <Contact />
