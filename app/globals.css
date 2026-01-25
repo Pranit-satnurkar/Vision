@@ -142,15 +142,23 @@
     @apply border-border outline-ring/50;
   }
 
-  /* Force hide system cursor everywhere */
-  body,
-  a,
-  button,
-  [role="button"],
-  input,
-  select,
-  textarea {
-    cursor: none !important;
+  html {
+    scroll-padding-top: 120px;
+    /* Offset for fixed navbar */
+  }
+
+  /* Force hide system cursor only on devices with fine pointers (mouse) */
+  @media (pointer: fine) {
+
+    body,
+    a,
+    button,
+    [role="button"],
+    input,
+    select,
+    textarea {
+      cursor: none !important;
+    }
   }
 }
 

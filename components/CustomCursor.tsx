@@ -18,6 +18,9 @@ export default function CustomCursor() {
 
     useEffect(() => {
         const moveCursor = (e: MouseEvent) => {
+            // Strictly check for touch capability to prevent ghost triggers
+            if (window.matchMedia("(pointer: coarse)").matches) return;
+
             cursorX.set(e.clientX - 16); // Center the 32px cursor
             cursorY.set(e.clientY - 16);
             if (!isVisible) setIsVisible(true);
