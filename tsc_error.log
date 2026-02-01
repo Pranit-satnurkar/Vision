@@ -1,0 +1,23 @@
+components/GitHubContributions.tsx(3,8): error TS2613: Module '"C:/Data Analyst/AI Powered Portfolio/node_modules/react-github-calendar/build/index"' has no default export. Did you mean to use 'import { GitHubCalendar } from "C:/Data Analyst/AI Powered Portfolio/node_modules/react-github-calendar/build/index"' instead?
+components/Kat.tsx(37,77): error TS2322: Type '{ walk: { rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }; idle: { rotate: number; }; }' is not assignable to type 'Variants'.
+  Property 'walk' is incompatible with index signature.
+    Type '{ rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ repeat: number; duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ repeat: number; duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ repeat: number; duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+components/Kat.tsx(44,77): error TS2322: Type '{ walk: { rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }; idle: { rotate: number; }; }' is not assignable to type 'Variants'.
+  Property 'walk' is incompatible with index signature.
+    Type '{ rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ rotate: number[]; transition: { repeat: number; duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ repeat: number; duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ repeat: number; duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ repeat: number; duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.

@@ -4,10 +4,13 @@
 import { motion } from "framer-motion";
 import bio from "@/data/bio.json";
 import { MapPin, Clock, Globe } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
+
 
 export default function Hero() {
     const [time, setTime] = useState("");
+
+    const heroRef = useRef(null);
 
     useEffect(() => {
         const updateTime = () => {
@@ -19,7 +22,7 @@ export default function Hero() {
     }, []);
 
     return (
-        <section className="h-full w-full flex flex-col p-8 lg:p-12 relative overflow-hidden bg-background">
+        <section ref={heroRef} className="h-full w-full flex flex-col p-8 lg:p-12 relative overflow-hidden bg-background">
             {/* Background Decorations */}
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none opacity-50"></div>
 
@@ -46,10 +49,10 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                 >
                     <h1 className="text-5xl lg:text-6xl font-black tracking-tighter leading-[0.85] mb-6">
-                        DATA<br />
-                        <span className="text-muted-foreground">ANALYST</span><br />
-                        & AI/ML<br />
-                        <span className="text-muted-foreground">ENGINEER</span>
+                        FULL-STACK<br />
+                        <span className="text-muted-foreground">DEVELOPER</span><br />
+                        & DATA<br />
+                        <span className="text-muted-foreground">ARCHITECT</span>
                     </h1>
 
                     <p className="text-lg text-muted-foreground leading-relaxed max-w-sm font-light border-l-2 border-primary/20 pl-4">
@@ -61,7 +64,7 @@ export default function Hero() {
             {/* Bottom: Meta Data */}
             <div className="mt-auto z-10 space-y-6">
                 <div className="grid grid-cols-2 gap-4 font-mono text-xs text-muted-foreground">
-                    <div className="flex flex-col gap-1 border-t border-border pt-2">
+                    <div className="flex flex-col gap-1 border-t border-border pt-2 relative">
                         <span className="opacity-50">LOCATION</span>
                         <span className="font-bold text-foreground flex items-center gap-1">
                             <MapPin size={10} /> Pune, IN
@@ -91,6 +94,9 @@ export default function Hero() {
                                 {platform}
                             </a>
                         ))}
+
+
+
                     <a
                         href="/Resume.pdf"
                         download

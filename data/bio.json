@@ -1,7 +1,7 @@
 {
     "name": "Pranit",
-    "tagline": "Data Analyst | AI/ML Engineer",
-    "summary": "Results-oriented Data Analyst with over 1 year of professional experience in engineering and data processing. Leveraging a strong analytical background to solve business problems using Python, SQL, and Power BI. Recently developed advanced predictive models and dashboarding solutions for financial and construction domains.",
+    "tagline": "Full-Stack Developer | Data Architect",
+    "summary": "Versatile builder bridging the gap between complex data systems and immersive user experiences. With a strong foundation in Data Analysis and AI, I now craft full-stack web applications, game mechanics, and intuitive UIs. I build performant, aesthetic, and intelligent software.",
     "socialLinks": {
         "portfolio": "https://pranitcs.vercel.app",
         "github": "https://github.com/Pranit-satnurkar",
@@ -10,42 +10,62 @@
     },
     "skills": {
         "analysis": [
-            "Power BI (DAX)",
+            "Power BI",
             "Tableau",
-            "Excel (Advanced)",
-            "Matplotlib",
-            "Seaborn"
+            "Advanced Excel",
+            "SQL",
+            "Pandas"
         ],
         "programming": [
             "Python",
-            "SQL",
-            "Pandas",
-            "NumPy",
-            "Scikit-Learn"
-        ],
-        "cloud": [
-            "Google BigQuery",
-            "Azure SQL",
-            "AWS",
-            "Docker"
+            "TypeScript",
+            "C++",
+            "Node.js",
+            "PostgreSQL"
         ],
         "web": [
-            "Streamlit",
-            "Flask",
+            "React / Next.js",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Three.js",
+            "Flask"
+        ],
+        "gameDev": [
+            "Unity",
+            "Godot",
+            "C#",
+            "Shader Graph"
+        ],
+        "uiUx": [
+            "Figma",
+            "Adobe XD",
+            "Prototyping",
+            "Design Systems"
+        ],
+        "cloud": [
+            "AWS",
+            "Azure",
+            "Docker",
             "GitHub Actions"
+        ],
+        "ai": [
+            "LLMs",
+            "RAG",
+            "LangChain",
+            "Predictive Modeling"
         ]
     },
     "toolbox": [
         "VS Code",
-        "Jupyter",
-        "Power BI",
-        "Git",
+        "Cursor",
+        "Figma",
+        "Unity",
         "Docker",
         "PostgreSQL"
     ],
     "reading": {
-        "title": "Designing Data-Intensive Applications",
-        "author": "Martin Kleppmann"
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt & David Thomas"
     },
-    "philosophy": "Data isn't just numbers; it's the voice of your business waiting to be heard."
+    "philosophy": "A multi-disciplinary 'vibe coder' blending performance with aesthetics to create software that feels as good as it works."
 }

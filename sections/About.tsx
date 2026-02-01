@@ -3,25 +3,25 @@ import Section from "@/components/Section";
 import FadeIn from "@/components/animations/FadeIn";
 import Stagger, { StaggerItem } from "@/components/animations/Stagger";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Brain, Code, LineChart } from "lucide-react";
+import { Brain, Code, LineChart, Palette, Rocket } from "lucide-react";
 import bio from "@/data/bio.json";
 
 // Mapping broad skill categories to icons/titles
 const VALUES = [
     {
         icon: LineChart,
-        title: "Data Analysis",
-        skills: bio.skills.analysis
+        title: "Analytics & Data",
+        skills: [...bio.skills.analysis, "Predictive Modeling"]
     },
     {
         icon: Code,
-        title: "Engineering",
-        skills: [...bio.skills.programming, ...bio.skills.web, ...bio.skills.cloud.slice(0, 2)]
+        title: "Development & Engineering",
+        skills: [...bio.skills.web, ...bio.skills.gameDev, ...bio.skills.cloud.slice(0, 2)]
     },
     {
-        icon: Brain,
-        title: "AI Integration",
-        skills: ["LLMs", "RAG", "Prompt Engineering", "Predictive Modeling", ...bio.skills.cloud.slice(2)]
+        icon: Palette,
+        title: "Creative & AI",
+        skills: [...bio.skills.uiUx, ...bio.skills.ai]
     }
 ];
 
