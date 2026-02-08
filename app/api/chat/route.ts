@@ -4,9 +4,9 @@ import bio from '@/data/bio.json';
 import projects from '@/data/projects.json';
 import experience from '@/data/experience.json';
 
-const groq = new Groq({
-    apiKey: process.env.GROQ_API_KEY,
-});
+// Initialize Groq client lazily or check for API key
+// const groq = new Groq({ apiKey: process.env.GROQ_API_KEY }); 
+// Moving inside handler to prevent build errors if key is missing
 
 const systemPrompt = `You are 'Viz', Pranit Satnurkar's loyal and witty digital assistant.
 You live in his portfolio website and know him intimately (professionally).
@@ -38,12 +38,18 @@ export async function POST(req: Request) {
         const body = await req.json();
         const { messages } = body;
 
-        if (!process.env.GROQ_API_KEY) {
+        const apiKey = process.env.GROQ_API_KEY;
+
+        if (!apiKey) {
             return NextResponse.json(
                 { error: 'GROQ_API_KEY not configured' },
                 { status: 500 }
             );
         }
+
+        const groq = new Groq({
+            apiKey: apiKey,
+        });
 
         const chatCompletion = await groq.chat.completions.create({
             messages: [
