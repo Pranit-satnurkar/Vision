@@ -172,12 +172,16 @@ function EmbeddedChat({ onBack }: { onBack: () => void }) {
                 body: JSON.stringify({ messages: [...messages, userMessage] }),
             });
 
-            if (!response.ok) throw new Error("Failed to fetch");
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}));
+                throw new Error(errorData.error || "Failed to fetch response from AI.");
+            }
 
             const data = await response.json();
             setMessages(prev => [...prev, { role: "assistant", content: data.content }]);
-        } catch (error) {
-            setMessages(prev => [...prev, { role: "assistant", content: "Error connecting to AI." }]);
+        } catch (error: any) {
+            console.error("Chat error:", error);
+            setMessages(prev => [...prev, { role: "assistant", content: error.message || "Error connecting to AI." }]);
         } finally {
             setIsLoading(false);
         }
