@@ -3,7 +3,7 @@
 
 import FadeIn from "@/components/animations/FadeIn";
 import { Badge } from "@/components/ui/badge";
-import { Github, ArrowUpRight, Database, Play } from "lucide-react";
+import { Github, ArrowUpRight, Database, Play, Globe } from "lucide-react";
 import projects from "@/data/projects.json";
 
 export default function Projects() {
@@ -12,12 +12,7 @@ export default function Projects() {
             <div className="grid gap-6">
                 {projects.map((project, index) => (
                     <FadeIn key={index} delay={index * 0.05}>
-                        <a
-                            href={project.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block group relative border border-border bg-card/50 hover:bg-card hover:border-primary/50 transition-all duration-300 p-6"
-                        >
+                        <div className="block group relative border border-border bg-card/50 hover:bg-card hover:border-primary/50 transition-all duration-300 p-6">
                             <div className="flex flex-col md:flex-row gap-6">
                                 {/* "Icon" / Status Indicator */}
                                 <div className="hidden md:flex flex-col items-center gap-2 pt-2 text-muted-foreground group-hover:text-primary transition-colors">
@@ -33,8 +28,27 @@ export default function Projects() {
                                             </div>
                                             <h3 className="text-2xl font-bold tracking-tight group-hover:text-primary transition-colors flex items-center gap-2">
                                                 {project.title}
-                                                <ArrowUpRight size={16} className="opacity-0 group-hover:opacity-100 transition-opacity -translate-y-1 group-hover:translate-y-0" />
                                             </h3>
+                                            <div className="flex gap-4 mt-2">
+                                                {project.demo && project.demo !== "#" && (
+                                                    <a
+                                                        href={project.demo}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-xs font-mono flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors"
+                                                    >
+                                                        <Globe size={12} /> WEBSITE
+                                                    </a>
+                                                )}
+                                                <a
+                                                    href={project.github}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-xs font-mono flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors"
+                                                >
+                                                    <Github size={12} /> GITHUB
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -59,7 +73,7 @@ export default function Projects() {
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </FadeIn>
                 ))}
             </div>

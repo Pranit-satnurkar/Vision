@@ -1,5 +1,18 @@
 [
     {
+        "title": "VeriJob AI",
+        "description": "An AI-powered job verification platform that detects ghost jobs and scams. Features include legitimacy scoring, salary insights, and smart interview prep.",
+        "tags": [
+            "Next.js",
+            "AI Agents",
+            "FastAPI",
+            "TypeScript"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/VeriJob_AI",
+        "demo": "https://verijob-ai.vercel.app/",
+        "date": "Feb 2026"
+    },
+    {
         "title": "Credit Risk Prediction Model",
         "description": "Engineered a machine learning pipeline to predict loan defaults, improving risk assessment accuracy. Deployed as an interactive web app using Streamlit.",
         "tags": [

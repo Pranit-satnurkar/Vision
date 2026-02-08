@@ -83,7 +83,6 @@ export default function RootLayout({
           <SmoothScroll>
             <StartupSequence />
             <TimeTravelButton />
-            {/* Global Custom Cursor */}
             <CustomCursor />
             <GradientBackground />
             <Navbar />

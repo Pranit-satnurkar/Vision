@@ -26,16 +26,10 @@
         "web": [
             "React / Next.js",
             "Tailwind CSS",
-            "Framer Motion",
             "Three.js",
             "Flask"
         ],
-        "gameDev": [
-            "Unity",
-            "Godot",
-            "C#",
-            "Shader Graph"
-        ],
+        "gameDev": [],
         "uiUx": [
             "Figma",
             "Adobe XD",

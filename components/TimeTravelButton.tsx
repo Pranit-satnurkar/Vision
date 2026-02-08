@@ -40,7 +40,7 @@ export default function TimeTravelButton() {
                                     transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
                                     className="group-hover:animate-reverse-spin" // Speed up on hover maybe?
                                 >
-                                    <History className="h-6 w-6 text-foreground group-hover:text-primary transition-colors" />
+                                    <Clock className="h-6 w-6 text-foreground group-hover:text-primary transition-colors" />
                                 </motion.div>
                             </Button>
                         </TooltipTrigger>
