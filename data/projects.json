@@ -1,5 +1,39 @@
 [
     {
+        "title": "Vastu Architect AI",
+        "description": "AI-powered floor plan generator that creates Vastu-compliant architectural drawings from a text prompt. Features BSP layout engine, room-by-room compliance scoring, 3D visualization, fire evacuation pathfinding (A*), crowd simulation with CO\u2082 analysis, sun path analysis, seismic risk mapping (IS 1893:2016), and AutoCAD DXF export.",
+        "tags": [
+            "Python",
+            "FastAPI",
+            "LangChain",
+            "Next.js",
+            "Three.js",
+            "Konva.js",
+            "RAG",
+            "ezdxf"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/Vastu_Architect",
+        "demo": "#",
+        "date": "Apr 2026"
+    },
+    {
+        "title": "NirmAI \u2014 Construction Cost Intelligence",
+        "description": "AI chatbot for civil engineers and homeowners. Reads DSR/SSR government rate documents and answers rate queries instantly. Features rate analysis generation, BOQ preparation, running bill verification, and a natural language home construction budget estimator backed by Maharashtra PWD SSR 2023-24 data.",
+        "tags": [
+            "Python",
+            "FastAPI",
+            "LangChain",
+            "Gemini",
+            "Groq",
+            "RAG",
+            "ChromaDB",
+            "Next.js"
+        ],
+        "github": "https://github.com/Pranit-satnurkar/NirmAI",
+        "demo": "#",
+        "date": "Apr 2026"
+    },
+    {
         "title": "VeriJob AI",
         "description": "An AI-powered job verification platform that detects ghost jobs and scams. Features include legitimacy scoring, salary insights, and smart interview prep.",
         "tags": [

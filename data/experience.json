@@ -1,5 +1,16 @@
 [
     {
+        "role": "Jr. Billing Engineer",
+        "company": "Tricon Infra Buildtech Pvt. Ltd.",
+        "period": "Apr 2026 \u2013 Present",
+        "description": "Kondhawa, Pune",
+        "achievements": [
+            "Preparing running account bills and quantity estimates for residential construction projects",
+            "AutoCAD drawing review and measurement verification for billing accuracy",
+            "Coordinating with contractors and site teams for progress billing"
+        ]
+    },
+    {
         "role": "Data Analyst Intern",
         "company": "Lazarus Network",
         "period": "Feb 2025 \u2013 May 2025",
@@ -14,7 +25,7 @@
         "role": "Assistant Engineer",
         "company": "NJS Engineers India Pvt. Ltd.",
         "period": "Dec 2023 \u2013 Dec 2024",
-        "description": "Mumbai, India",
+        "description": "Raigad, Maharashtra",
         "achievements": [
             "Managed project data and generated detailed progress reports for large-scale infrastructure projects.",
             "Applied engineering mathematics to resource estimation and cost analysis.",

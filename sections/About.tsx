@@ -20,7 +20,7 @@ export default function About() {
                 <FadeIn className="max-w-3xl">
                     <h2 className="text-3xl font-bold tracking-tight mb-6">About Me</h2>
                     <p className="text-xl text-muted-foreground leading-relaxed">
-                        I am {bio.name}, a {bio.tagline}. {bio.philosophy}
+                        {bio.summary}
                     </p>
                 </FadeIn>
 
@@ -36,7 +36,7 @@ export default function About() {
                             </CardHeader>
                             <CardContent>
                                 <div className="flex flex-wrap gap-2">
-                                    {[...bio.skills.analysis, "Predictive Modeling"].map(skill => (
+                                    {bio.skills.analysis.map(skill => (
                                         <span key={skill} className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground ring-1 ring-inset ring-gray-500/10">
                                             {skill}
                                         </span>
@@ -57,7 +57,7 @@ export default function About() {
                             </CardHeader>
                             <CardContent>
                                 <div className="flex flex-wrap gap-2">
-                                    {[...bio.skills.web, ...bio.skills.cloud.slice(0, 2)].map(skill => (
+                                    {bio.skills.engineering.map(skill => (
                                         <span key={skill} className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground ring-1 ring-inset ring-gray-500/10">
                                             {skill}
                                         </span>
@@ -110,7 +110,7 @@ function AiCard() {
                         </CardHeader>
                         <CardContent>
                             <div className="flex flex-wrap gap-2">
-                                {[...bio.skills.uiUx, ...bio.skills.ai].map(skill => (
+                                {bio.skills.creativeAi.map(skill => (
                                     <span key={skill} className="inline-flex items-center rounded-md bg-secondary px-2 py-1 text-xs font-medium text-secondary-foreground ring-1 ring-inset ring-gray-500/10">
                                         {skill}
                                     </span>

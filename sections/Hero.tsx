@@ -49,10 +49,10 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                 >
                     <h1 className="text-5xl lg:text-6xl font-black tracking-tighter leading-[0.85] mb-6">
-                        FULL-STACK<br />
+                        FULL-STACK AI<br />
                         <span className="text-muted-foreground">DEVELOPER</span><br />
-                        & DATA<br />
-                        <span className="text-muted-foreground">ARCHITECT</span>
+                        & CIVIL<br />
+                        <span className="text-muted-foreground">ENGINEER</span>
                     </h1>
 
                     <p className="text-lg text-muted-foreground leading-relaxed max-w-sm font-light border-l-2 border-primary/20 pl-4">

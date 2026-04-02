@@ -1,7 +1,7 @@
 {
     "name": "Pranit",
-    "tagline": "Full-Stack Developer | Data Architect",
-    "summary": "Versatile builder bridging the gap between complex data systems and immersive user experiences. With a strong foundation in Data Analysis and AI, I now craft full-stack web applications, game mechanics, and intuitive UIs. I build performant, aesthetic, and intelligent software.",
+    "tagline": "Full-Stack AI Developer & Civil Engineer",
+    "summary": "I am Pranit, a Full-Stack AI Developer with a Civil Engineering background. I build AI-powered products that solve real-world domain problems — from Vastu-compliant floor plan generators to construction cost estimation tools. I bridge the gap between physical world domain knowledge and modern AI systems.",
     "socialLinks": {
         "portfolio": "https://pranitcs.vercel.app",
         "github": "https://github.com/Pranit-satnurkar",
@@ -14,46 +14,32 @@
             "Tableau",
             "Advanced Excel",
             "SQL",
-            "Pandas"
+            "Pandas",
+            "Predictive Modeling"
         ],
-        "programming": [
+        "engineering": [
             "Python",
             "TypeScript",
-            "C++",
-            "Node.js",
-            "PostgreSQL"
-        ],
-        "web": [
             "React / Next.js",
-            "Tailwind CSS",
-            "Three.js",
-            "Flask"
-        ],
-        "gameDev": [],
-        "uiUx": [
-            "Figma",
-            "Adobe XD",
-            "Prototyping",
-            "Design Systems"
-        ],
-        "cloud": [
-            "AWS",
-            "Azure",
-            "Docker",
-            "GitHub Actions"
-        ],
-        "ai": [
-            "LLMs",
-            "RAG",
+            "FastAPI",
             "LangChain",
-            "Predictive Modeling"
+            "Groq",
+            "Shapely",
+            "ezdxf"
+        ],
+        "creativeAi": [
+            "RAG Systems",
+            "Vector Databases",
+            "ChromaDB",
+            "LLMs",
+            "LangChain",
+            "Design Systems"
         ]
     },
     "toolbox": [
         "VS Code",
         "Cursor",
         "Figma",
-        "Unity",
         "Docker",
         "PostgreSQL"
     ],
