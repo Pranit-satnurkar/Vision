@@ -30,15 +30,15 @@ export const viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Pranit | Data Analyst & AI/ML Engineer",
+    default: "Pranit | Full-Stack AI Developer & Civil Engineer",
     template: "%s | Pranit"
   },
-  description: "Data Analyst & AI/ML Engineer. Explore my work in predictive models, dashboards, and AI integration.",
-  keywords: ["Data Analyst", "AI/ML Engineer", "Portfolio", "Python", "Power BI", "Next.js", "AI", "Pranit"],
+  description: "Full-Stack AI Developer & Civil Engineer. Explore my work in predictive models, dashboards, and AI integration.",
+  keywords: ["Full-Stack AI Developer", "Civil Engineer", "Portfolio", "Python", "Next.js", "AI", "Pranit"],
   authors: [{ name: "Pranit" }],
   openGraph: {
-    title: "Pranit | Data Analyst & AI/ML Engineer",
-    description: "Results-oriented Data Analyst & AI/ML Engineer with expertise in Python, SQL, and Power BI.",
+    title: "Pranit | Full-Stack AI Developer & Civil Engineer",
+    description: "Results-oriented Full-Stack AI Developer & Civil Engineer with expertise in AI agents, full-stack dev, and data solutions.",
     url: "https://pranitcs.vercel.app",
     siteName: "Pranit",
     images: [
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pranit | Data Analyst & AI/ML Engineer",
-    description: "Data Analyst & AI/ML Engineer. Explore my work in predictive models and data solutions.",
+    title: "Pranit | Full-Stack AI Developer & Civil Engineer",
+    description: "Full-Stack AI Developer & Civil Engineer. Explore my work in predictive models and data solutions.",
     images: ["/og-image.png"],
   },
   robots: {
