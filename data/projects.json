@@ -17,8 +17,8 @@
         "date": "Apr 2026"
     },
     {
-        "title": "NirmAI \u2014 Construction Cost Intelligence",
-        "description": "AI chatbot for civil engineers and homeowners. Reads DSR/SSR government rate documents and answers rate queries instantly. Features rate analysis generation, BOQ preparation, running bill verification, and a natural language home construction budget estimator backed by Maharashtra PWD SSR 2023-24 data.",
+        "title": "Civimetric \u2014 Architectural Intelligence for Automated Estimates",
+        "description": "Live AI-powered construction cost estimator platform backed by pan-India government DSR/SSR rates. Features an autonomous Estimator agent that generates structured BOQs from natural language project descriptions, a Rate Finder for instant semantic search across state SSR and central CPWD DSR data, automated geo-specific escalation, temporal auditing against gazette versions, Excel export with measurement book, and an Enterprise tier for org-wide multi-project portfolio management. Website live and in active testing.",
         "tags": [
             "Python",
             "FastAPI",
@@ -26,12 +26,13 @@
             "Gemini",
             "Groq",
             "RAG",
-            "ChromaDB",
-            "Next.js"
+            "Pinecone",
+            "Next.js",
+            "AI Agents"
         ],
         "github": "https://github.com/Pranit-satnurkar/NirmAI",
-        "demo": "#",
-        "date": "Apr 2026"
+        "demo": "https://www.civimetric.in/",
+        "date": "May 2026"
     },
     {
         "title": "VeriJob AI",
