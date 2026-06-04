@@ -1,13 +1,15 @@
 [
     {
-        "role": "Jr. Billing Engineer",
-        "company": "Tricon Infra Buildtech Pvt. Ltd.",
-        "period": "Apr 2026 \u2013 Present",
-        "description": "Kondhawa, Pune",
+        "role": "Founder",
+        "company": "Civimetric \u00b7 Freelance",
+        "period": "2025 \u2013 Present",
+        "description": "Remote",
         "achievements": [
-            "Preparing running account bills and quantity estimates for residential construction projects",
-            "AutoCAD drawing review and measurement verification for billing accuracy",
-            "Coordinating with contractors and site teams for progress billing"
+            "Built and launched Civimetric, an AI-powered construction cost intelligence platform for the Indian construction industry.",
+            "Developed a full-stack RAG pipeline using Python, FastAPI, and Pinecone to deliver real-time DSR-based rate lookups.",
+            "Designed and shipped the end-to-end product \u2014 from data ingestion and vector search to a polished conversational UI \u2014 as a solo founder.",
+            "Integrated government Schedule of Rates (DSR) data to provide contractors and engineers with instant, verified cost estimates.",
+            "Driving product strategy, user research, and technical roadmap independently while working remotely."
         ]
     },
     {
